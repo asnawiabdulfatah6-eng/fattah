@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Bibi!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">🌙</button>
+
+  <section class="hero">
+    <div class="balloon b1"></div>
+    <div class="balloon b2"></div>
+    <div class="balloon b3"></div>
+    <div class="balloon b4"></div>
+    <div class="eyebrow">A little website, made just for you</div>
+    <div class="url-badge">🔗 bibi.happybirthday</div>
+
+    <div class="frame-wrap">
+      <div class="lights lights-left">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="photo-frame">
+        <span class="deco deco-tl">🎈</span>
+        <span class="deco deco-tr">🎉</span>
+        <span class="deco deco-bl">🎊</span>
+        <span class="deco deco-br">🎈</span>
+        <img src="bibi1.jpg" alt="Bibi" class="photo-img" onerror="this.parentElement.classList.add('photo-empty')">
+        <div class="photo-fallback">📷<br>Add bibi1.jpg</div>
+      </div>
+
+      <div class="lights lights-right">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <h1 class="name">Isnihaya Abdul Saumay</h1>
+    <div class="nickname">"Bibi"</div>
+    <p class="tagline">Future social worker, forever my favorite niece — this page is your birthday present from your Uncle.</p>
+    <div class="date-pill">🎂 October 4 · Happy Birthday!</div>
+  </section>
+
+  <div class="wrap">
+
+    <div class="card">
+      <h2>A Message For You, Bibi</h2>
+      <div class="divider"></div>
+      <p>
+        Happy birthday! Watching you grow into the young woman you are today has been one of my
+        favorite things to witness. You picked a field that's all about showing up for people who need
+        it most, and that says everything about your heart. Social work isn't an easy road, but it's
+        exactly the kind of road someone like you was built to walk.
+      </p>
+      <p>
+        I hope this year brings you clarity in your studies, patience for the hard days at MSU, and
+        plenty of moments that remind you why you started. Keep being kind, keep being stubborn about
+        the things that matter, and never forget you've got an uncle in your corner cheering you on.
+      </p>
+      <p class="signoff">— Your Uncle (and friend)</p>
+      <button class="music-btn" id="musicBtn" onclick="toggleMusic()">
+        <span id="musicIcon">🎵</span> <span id="musicLabel">Play a little birthday tune</span>
+      </button>
+      <div class="lyric-line" id="lyricLine"></div>
+    </div>
+
+    <div class="card">
+      <h2>Birthday Wishes</h2>
+      <div class="divider"></div>
+
+      <div class="wish-row">
+        <div class="wish-pic">
+          <img src="bibi2.jpg" alt="Bibi" class="photo-img" onerror="this.parentElement.classList.add('photo-empty')">
+          <div class="photo-fallback">📘</div>
+        </div>
+        <div class="wish-text">
+          <h3>For your BSSW journey</h3>
+          <p>May every case study, every long night of readings, and every field practicum make you
+          prouder of the social worker you're becoming. You picked a hard, meaningful path may this
+          year make it feel a little lighter.</p>
+        </div>
+      </div>
+
+      <div class="wish-row reverse">
+        <div class="wish-pic">
+          <img src="bibi3.jpg" alt="Bibi" class="photo-img" onerror="this.parentElement.classList.add('photo-empty')">
+          <div class="photo-fallback">🤍</div>
+        </div>
+        <div class="wish-text">
+          <h3>For your health </h3>
+          <p>May you eat well, sleep enough, and take care of yourself as fiercely as you take care of
+          everyone else. Your health is not optional, Bibi protect it the way you protect the people
+          you help.</p>
+        </div>
+      </div>
+
+      <div class="wish-row">
+        <div class="wish-pic">
+          <img src="bibi4.jpg" alt="Bibi" class="photo-img" onerror="this.parentElement.classList.add('photo-empty')">
+          <div class="photo-fallback">💙</div>
+        </div>
+        <div class="wish-text">
+          <h3>For your family and your life </h3>
+          <p>May your relationships stay warm, your home stay peaceful, and your life outside of school
+          be just as full and happy as the future you're building. You deserve joy in every part of it.</p>
+        </div>
+      </div>
+
+      <div class="wish-row reverse">
+        <div class="wish-pic">
+          <img src="bibi5.jpg" alt="Bibi" class="photo-img" onerror="this.parentElement.classList.add('photo-empty')">
+          <div class="photo-fallback">💪</div>
+        </div>
+        <div class="wish-text">
+          <h3>For your effort and hard work </h3>
+          <p>Every late night, every requirement passed, every ounce of discipline it took to get this
+          far none of it goes unnoticed. May your hard work keep paying off, again and again.</p>
+        </div>
+      </div>
+
+      <div class="wish-row">
+        <div class="wish-pic">
+          <img src="bibi6.jpg" alt="Bibi" class="photo-img" onerror="this.parentElement.classList.add('photo-empty')">
+          <div class="photo-fallback">🕊️</div>
+        </div>
+        <div class="wish-text">
+          <h3>For your silent battles and struggles </h3>
+          <p>For the things you carry quietly that no one else sees may you find strength on the hard
+          days, people who show up for you, and the peace of knowing you never have to fight alone.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    Made with <span class="heart">♥</span> by your uncle, for Bibi — October 4
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
